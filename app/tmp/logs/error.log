@@ -1,0 +1,30 @@
+2013-06-04 22:17:44 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 23:29:55 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 23:32:46 Error: [MissingViewException] View file "/Users/alexmason/Documents/Git/concept/app/View/Instruments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/alexmason/Documents/Git/concept/app/View/Instruments/add.ctp',
+)
+Request URL: /instruments/add
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(InstrumentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
