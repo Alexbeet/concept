@@ -41,7 +41,6 @@ class InstrumentsController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Instrument->create();
 			if ($this->Instrument->save($this->request->data)) {
-				$this->Session->setFlash(__('The instrument has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The instrument could not be saved. Please, try again.'));

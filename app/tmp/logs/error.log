@@ -28,3 +28,1173 @@ Stack Trace:
 #3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(InstrumentsController), Object(CakeRequest), Object(CakeResponse))
 #4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-06-05 18:36:53 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 18:58:33 Error: [MissingControllerException] Controller class DocumentScheduleController could not be found.
+Exception Attributes: array (
+  'class' => 'DocumentScheduleController',
+  'plugin' => NULL,
+)
+Request URL: /document_schedule/index/1
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 18:58:39 Error: [MissingControllerException] Controller class DocumentScheduleController could not be found.
+Exception Attributes: array (
+  'class' => 'DocumentScheduleController',
+  'plugin' => NULL,
+)
+Request URL: /document_schedule/1
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 18:59:14 Error: [MissingControllerException] Controller class DocumentScheduleController could not be found.
+Exception Attributes: array (
+  'class' => 'DocumentScheduleController',
+  'plugin' => NULL,
+)
+Request URL: /document_schedule/index/1
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 19:02:02 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 19:03:48 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 19:06:37 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 33]
+2013-06-05 19:06:37 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 33, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 33, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:09:53 Error: Fatal Error (4): syntax error, unexpected 'elseif' (T_ELSEIF) in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 31]
+2013-06-05 19:09:53 Error: [FatalErrorException] syntax error, unexpected 'elseif' (T_ELSEIF)
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:10:34 Error: Fatal Error (4): syntax error, unexpected 'elseif' (T_ELSEIF) in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 31]
+2013-06-05 19:10:34 Error: [FatalErrorException] syntax error, unexpected 'elseif' (T_ELSEIF)
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:11:10 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 31]
+2013-06-05 19:11:10 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:11:17 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 31]
+2013-06-05 19:11:17 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:15:53 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/InstrumentsController.php, line 44]
+2013-06-05 19:15:53 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /instruments/add
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 44, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 44, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:19:56 Error: [MissingControllerException] Controller class TrackerController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackerController',
+  'plugin' => NULL,
+)
+Request URL: /tracker
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 19:20:00 Error: [MissingControllerException] Controller class TrackerController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackerController',
+  'plugin' => NULL,
+)
+Request URL: /tracker/add
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-05 19:24:18 Error: Fatal Error (4): syntax error, unexpected 'InstrumentType' (T_STRING) in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 25]
+2013-06-05 19:24:18 Error: [FatalErrorException] syntax error, unexpected 'InstrumentType' (T_STRING)
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 25, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 25, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:29:38 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/3
+Stack Trace:
+#0 [internal function]: TrackersController->view('3')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-05 19:29:44 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/2
+Stack Trace:
+#0 [internal function]: TrackersController->view('2')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-05 19:29:54 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/
+Stack Trace:
+#0 [internal function]: TrackersController->view()
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-05 19:30:19 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/1
+Stack Trace:
+#0 [internal function]: TrackersController->view('1')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-05 19:30:28 Error: [MissingActionException] Action TrackersController::5() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrackersController',
+  'action' => '5',
+)
+Request URL: /trackers/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-05 19:30:32 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/4
+Stack Trace:
+#0 [internal function]: TrackersController->view('4')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-05 19:31:40 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 44]
+2013-06-05 19:31:40 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /trackers/add
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 44, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 44, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-05 19:46:42 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view
+Stack Trace:
+#0 [internal function]: TrackersController->view()
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-05 19:47:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tracker.' in 'where clause'
+Request URL: /trackers/view/1
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(32): Model->find('first', Array)
+#6 [internal function]: TrackersController->view('1')
+#7 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-06 18:47:25 Error: Fatal Error (4): syntax error, unexpected '.', expecting ')' in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 24]
+2013-06-06 18:47:25 Error: [FatalErrorException] syntax error, unexpected '.', expecting ')'
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 24, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 24, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 18:47:32 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 38]
+2013-06-06 18:47:32 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 38, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 38, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 18:48:20 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 24]
+2013-06-06 18:48:20 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 24, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 24, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 18:50:49 Error: Fatal Error (4): syntax error, unexpected '}' in [/Users/alexmason/Documents/Git/concept/app/View/Instruments/index.ctp, line 24]
+2013-06-06 18:50:49 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /instruments
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 24, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 24, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 18:51:33 Error: [MissingControllerException] Controller class TrackerController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackerController',
+  'plugin' => NULL,
+)
+Request URL: /tracker/index/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 18:51:38 Error: [MissingControllerException] Controller class TrackerController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackerController',
+  'plugin' => NULL,
+)
+Request URL: /tracker/index/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 19:02:00 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 44]
+2013-06-06 19:02:00 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /trackers/add
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 44, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 44, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:02:17 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 67]
+2013-06-06 19:02:17 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /trackers/edit/1
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 67, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 67, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:02:37 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 67]
+2013-06-06 19:02:37 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /trackers/edit/1
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 67, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 67, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:03:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tracker' in 'where clause'
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(19): Model->find('first', Array)
+#6 [internal function]: TrackersController->index()
+#7 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-06 19:04:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:04:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:05:05 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 18]
+2013-06-06 19:05:05 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 18, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 18, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:05:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 18]
+2013-06-06 19:05:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 18, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 18, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:05:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:05:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:05:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:05:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:05:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:05:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:06:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:06:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:06:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Instrument.instrument_type' in 'where clause'
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(19): Model->find('all', Array)
+#6 [internal function]: TrackersController->index()
+#7 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-06 19:06:34 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:06:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:08:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Instrument.instrument_type' in 'where clause'
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(19): Model->find('all', Array)
+#6 [internal function]: TrackersController->index()
+#7 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-06 19:10:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 19]
+2013-06-06 19:10:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /trackers
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 19, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 19:40:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate(Array, Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate(Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:41:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Tracker', Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate('Tracker', Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:41:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Tracker', Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate('Tracker', Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:42:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Tracker', Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate('Tracker', Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:53:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate(Array, Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate(Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:53:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate(Array, Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate(Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:53:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Tracker', Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate('Tracker', Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:53:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Tracker', Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate('Tracker', Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:54:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Tracker', Array, Array)
+#7 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(34): Controller->paginate('Tracker', Array)
+#8 [internal function]: TrackersController->view('2')
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-06 19:55:17 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/3
+Stack Trace:
+#0 [internal function]: TrackersController->view('3')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 19:55:53 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/5
+Stack Trace:
+#0 [internal function]: TrackersController->view('5')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 19:55:57 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/3
+Stack Trace:
+#0 [internal function]: TrackersController->view('3')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 19:58:35 Error: [MissingActionException] Action TrackersController::view2() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrackersController',
+  'action' => 'view2',
+)
+Request URL: /trackers/view2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-06 20:24:11 Error: [MissingModelException] Instruments
+Request URL: /trackers/index
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Instruments', Array, Array)
+#1 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(18): Controller->paginate('Instruments', Array)
+#2 [internal function]: TrackersController->index()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-06 20:24:15 Error: [MissingModelException] Instruments
+Request URL: /trackers/
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Instruments', Array, Array)
+#1 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(18): Controller->paginate('Instruments', Array)
+#2 [internal function]: TrackersController->index()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-06 20:25:06 Error: [MissingModelException] Instruments
+Request URL: /trackers/
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Instruments', Array, Array)
+#1 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(18): Controller->paginate('Instruments', Array)
+#2 [internal function]: TrackersController->index()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-06 20:25:25 Error: [MissingModelException] Instruments
+Request URL: /trackers/index
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Instruments', Array, Array)
+#1 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(18): Controller->paginate('Instruments', Array)
+#2 [internal function]: TrackersController->index()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-06 20:25:26 Error: [MissingModelException] Instruments
+Request URL: /trackers/index
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Instruments', Array, Array)
+#1 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(18): Controller->paginate('Instruments', Array)
+#2 [internal function]: TrackersController->index()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-06 20:25:39 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 17]
+2013-06-06 20:25:39 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /trackers/index
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 17, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 17, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 20:25:50 Error: [MissingModelException] Instruments
+Request URL: /trackers/index
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Instruments', Array, Array)
+#1 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(18): Controller->paginate('Instruments', Array)
+#2 [internal function]: TrackersController->index()
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-06 20:28:30 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/5
+Stack Trace:
+#0 [internal function]: TrackersController->view('5')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 20:29:05 Error: Fatal Error (1): Call to a member function exists() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 31]
+2013-06-06 20:29:05 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 20:29:16 Error: Fatal Error (1): Call to a member function exists() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 31]
+2013-06-06 20:29:16 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 20:30:09 Error: Fatal Error (1): Call to a member function exists() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 31]
+2013-06-06 20:30:09 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /trackers/view/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 31, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 31, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 20:32:41 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 48]
+2013-06-06 20:32:41 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /trackers/add/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 48, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 48, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 20:39:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:40:37 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/alexmason/Documents/Git/concept/app/View/Layouts/default.ctp, line 33]
+2013-06-06 20:40:37 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 33, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 33, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 20:40:52 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/bootstrap/css/bootstrap.css
+Stack Trace:
+#0 [internal function]: TrackersController->view('bootstrap', 'css', 'bootstrap.css')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 20:40:52 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/view/css/flat-ui.css
+Stack Trace:
+#0 [internal function]: TrackersController->view('css', 'flat-ui.css')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 20:41:11 Error: [MissingControllerException] Controller class BootstrapController could not be found.
+Exception Attributes: array (
+  'class' => 'BootstrapController',
+  'plugin' => NULL,
+)
+Request URL: /bootstrap/css/bootstrap.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/flat-ui.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/flat-ui.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:19 Error: [MissingControllerException] Controller class BootstrapController could not be found.
+Exception Attributes: array (
+  'class' => 'BootstrapController',
+  'plugin' => NULL,
+)
+Request URL: /bootstrap/css/bootstrap.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/flat-ui.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:35 Error: [MissingControllerException] Controller class BootstrapController could not be found.
+Exception Attributes: array (
+  'class' => 'BootstrapController',
+  'plugin' => NULL,
+)
+Request URL: /bootstrap/css/bootstrap.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:35 Error: [MissingControllerException] Controller class BootstrapController could not be found.
+Exception Attributes: array (
+  'class' => 'BootstrapController',
+  'plugin' => NULL,
+)
+Request URL: /bootstrap/css/bootstrap.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:41:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/flat-ui.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:42:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/flat-ui.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:42:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/flat-ui.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:42:04 Error: [MissingControllerException] Controller class BootstrapController could not be found.
+Exception Attributes: array (
+  'class' => 'BootstrapController',
+  'plugin' => NULL,
+)
+Request URL: /bootstrap/css/bootstrap.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:55:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/template.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:56:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/template.css
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 20:56:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/template.css?r=6727524
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 22:08:44 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 22:25:41 Error: Fatal Error (1): Call to a member function field() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 36]
+2013-06-06 22:25:41 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 36, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 36, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:32:49 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 22:37:11 Error: [MissingControllerException] Controller class MampController could not be found.
+Exception Attributes: array (
+  'class' => 'MampController',
+  'plugin' => NULL,
+)
+Request URL: /mamp
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 22:39:11 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 36]
+2013-06-06 22:39:11 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 36, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 36, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:39:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Instrum...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Instrum...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Instrum...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Instrument), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(1552): Model->find('first', Array)
+#6 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(36): Model->field('name', Array)
+#7 [internal function]: TrackersController->view('5')
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-06 22:39:30 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 36]
+2013-06-06 22:39:30 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 36, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 36, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:39:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tracker.id' in 'where clause'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Instrum...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Instrum...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Instrum...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Instrument), Array)
+#5 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(1552): Model->find('first', Array)
+#6 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(36): Model->field('name', Array)
+#7 [internal function]: TrackersController->view('5')
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-06 22:40:41 Error: Fatal Error (1): Call to a member function field() on a non-object in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 38]
+2013-06-06 22:40:41 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alexmaso...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alexmaso...', 38, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alexmaso...', 38, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:48:46 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 42]
+2013-06-06 22:48:46 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 42, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 42, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:48:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Instrum...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Instrum...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Instrum...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Instrument), Array)
+#5 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(42): Model->find('first', Array)
+#6 [internal function]: TrackersController->view('5')
+#7 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-06 22:54:41 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 37]
+2013-06-06 22:54:41 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 37, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 37, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:57:56 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 43]
+2013-06-06 22:57:56 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 43, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 43, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:58:01 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 43]
+2013-06-06 22:58:01 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 43, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 43, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 22:59:57 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 42]
+2013-06-06 22:59:57 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 42, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 42, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 23:01:19 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 41]
+2013-06-06 23:01:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/view/5
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 41, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 41, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 23:30:42 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 23:38:45 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-06 23:48:22 Error: [NotFoundException] Invalid tracker
+Request URL: /trackers/detail/3
+Stack Trace:
+#0 [internal function]: TrackersController->detail('3')
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-06 23:52:20 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 79]
+2013-06-06 23:52:20 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /trackers/detail/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 79, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 79, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 23:52:25 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php, line 79]
+2013-06-06 23:52:25 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /trackers/detail/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/alexmaso...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/alexmaso...', 79, Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/alexmaso...', 79, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-06 23:52:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tracker.id' in 'where clause'
+Request URL: /trackers/detail/2
+Stack Trace:
+#0 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Tracker...', Array)
+#2 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Tracker...', Array, Array)
+#3 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Tracker...', false)
+#4 /Users/alexmason/Documents/Git/concept/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Tracker), Array)
+#5 /Users/alexmason/Documents/Git/concept/app/Controller/TrackersController.php(79): Model->find('first', Array)
+#6 [internal function]: TrackersController->detail('2')
+#7 /Users/alexmason/Documents/Git/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(TrackersController), Array)
+#8 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/alexmason/Documents/Git/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TrackersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

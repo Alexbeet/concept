@@ -5,6 +5,7 @@ App::uses('AppModel', 'Model');
  *
  * @property InstrumentType $InstrumentType
  * @property DocumentSchedule $DocumentSchedule
+ * @property Tracker $Tracker
  */
 class Instrument extends AppModel {
 
@@ -41,6 +42,19 @@ class Instrument extends AppModel {
 	public $hasMany = array(
 		'DocumentSchedule' => array(
 			'className' => 'DocumentSchedule',
+			'foreignKey' => 'instrument_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Tracker' => array(
+			'className' => 'Tracker',
 			'foreignKey' => 'instrument_id',
 			'dependent' => false,
 			'conditions' => '',
