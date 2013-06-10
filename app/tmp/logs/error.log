@@ -2270,3 +2270,107 @@ Request URL: /img/icons/bellway.png
 Stack Trace:
 #0 /Users/alexmason/Documents/Git/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-06-11 00:40:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:40:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'concept\'',
+  'enabled' => true,
+)
+Request URL: /instruments
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/andrewwhatley/GIT/concept/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/andrewwhatley/GIT/concept/lib/Cake/Model/Model.php(3221): ConnectionManager::getDataSource('default')
+#3 /Users/andrewwhatley/GIT/concept/lib/Cake/Model/Model.php(1108): Model->setDataSource('default')
+#4 /Users/andrewwhatley/GIT/concept/lib/Cake/Model/Model.php(3243): Model->setSource('instruments')
+#5 /Users/andrewwhatley/GIT/concept/lib/Cake/Model/Model.php(2696): Model->getDataSource()
+#6 /Users/andrewwhatley/GIT/concept/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#7 /Users/andrewwhatley/GIT/concept/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /Users/andrewwhatley/GIT/concept/app/Controller/InstrumentsController.php(17): Controller->paginate()
+#9 [internal function]: InstrumentsController->index()
+#10 /Users/andrewwhatley/GIT/concept/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(InstrumentsController), Array)
+#11 /Users/andrewwhatley/GIT/concept/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/andrewwhatley/GIT/concept/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(InstrumentsController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-06-11 00:41:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:44:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:44:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:45:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:46:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:46:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:47:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-11 00:47:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/icons/bellway.png
+Stack Trace:
+#0 /Users/andrewwhatley/GIT/concept/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
