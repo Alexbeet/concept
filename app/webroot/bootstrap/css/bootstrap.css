@@ -694,7 +694,7 @@ a.text-warning:focus {
 }
 
 .text-error {
-  color: #b94a48;
+  color: #e74c3c
 }
 
 a.text-error:hover,
@@ -1496,7 +1496,7 @@ input[type="checkbox"][readonly] {
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #b94a48;
+  color: #e74c3c
 }
 
 .control-group.error .checkbox,
@@ -1504,13 +1504,13 @@ input[type="checkbox"][readonly] {
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: #b94a48;
+  color: #e74c3c
 }
 
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  border-color: #b94a48;
+  border-color: #e74c3c
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1527,9 +1527,9 @@ input[type="checkbox"][readonly] {
 
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
-  color: #b94a48;
+  color: #e74c3c
   background-color: #f2dede;
-  border-color: #b94a48;
+  border-color: #e74c3c
 }
 
 .control-group.success .control-label,
@@ -1613,7 +1613,7 @@ input[type="checkbox"][readonly] {
 input:focus:invalid,
 textarea:focus:invalid,
 select:focus:invalid {
-  color: #b94a48;
+  color: #e74c3c
   border-color: #ee5f5b;
 }
 
@@ -2140,7 +2140,7 @@ table {
 
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
-  background-color: #3498db;
+  background-color: #95A5A6;
 }
 
 .table-hover tbody tr:hover > td,
@@ -3357,7 +3357,7 @@ input[type="button"].btn-block {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.btn-primary {
+.btn-primary, {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #006dcc;
@@ -3912,14 +3912,14 @@ input[type="submit"].btn.btn-mini {
 
 .alert-danger,
 .alert-error {
-  color: #b94a48;
+  color: #e74c3c
   background-color: #f2dede;
   border-color: #eed3d7;
 }
 
 .alert-danger h4,
 .alert-error h4 {
-  color: #b94a48;
+  color: #e74c3c
 }
 
 .alert-info {
@@ -5670,7 +5670,7 @@ a.badge:focus {
 
 .label-important,
 .badge-important {
-  background-color: #b94a48;
+  background-color: #e74c3c
 }
 
 .label-important[href],

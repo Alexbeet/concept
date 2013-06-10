@@ -43,7 +43,7 @@ class Instrument extends AppModel {
 		'DocumentSchedule' => array(
 			'className' => 'DocumentSchedule',
 			'foreignKey' => 'instrument_id',
-			'dependent' => false,
+			'dependent' => true,
 			'conditions' => '',
 			'fields' => '',
 			'order' => '',
@@ -56,7 +56,7 @@ class Instrument extends AppModel {
 		'Tracker' => array(
 			'className' => 'Tracker',
 			'foreignKey' => 'instrument_id',
-			'dependent' => false,
+			'dependent' => true,
 			'conditions' => '',
 			'fields' => '',
 			'order' => '',

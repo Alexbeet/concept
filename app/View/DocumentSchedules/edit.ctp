@@ -4,7 +4,6 @@
 		<legend><?php echo __('Edit Document Schedule'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('instrument_id');
 		echo $this->Form->input('document_name');
 		echo $this->Form->input('description');
 		echo $this->Form->input('required_date');

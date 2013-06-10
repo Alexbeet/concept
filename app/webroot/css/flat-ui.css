@@ -184,12 +184,13 @@ you can use the generic selector below, but it's slower:
   padding: 73px 0 110px;
   text-align: center;
 }
-.demo-logo {
+.demo- {
   font-size: 90px;
   font-weight: 900;
   letter-spacing: -2px;
   line-height: 100px;
 }
+
 .demo-logo .logo {
   background: url(../images/demo/logo-mask.png) center 0 no-repeat;
   background-size: 256px 186px;
@@ -199,6 +200,7 @@ you can use the generic selector below, but it's slower:
   text-indent: -9999em;
   width: 256px;
 }
+
 .demo-logo small {
   color: rgba(52, 73, 94, 0.30000000000000004);
   display: block;
@@ -912,10 +914,11 @@ h6 {
   display: none;
 }
 .navbar-inner {
-  background: #e74c3c;
+  background: #eceef0;
   border: none;
   padding-left: 0;
   padding-right: 0;
+
   filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled = false)");
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -3564,8 +3567,8 @@ body.vjs-full-window {
   border-radius: 10px;
 }
 .login {
-  background: url(../images/login/imac.png) 0 0 no-repeat;
-  background-size: 940px 778px;
+  background: url(/img/login/imac.png) 0 0 no-repeat;
+ 
   color: #ffffff;
   margin-bottom: 77px;
   padding: 38px 38px 267px;
@@ -3863,3 +3866,15 @@ body.vjs-full-window {
 .mal {
   margin-left: 20px;
 }
+
+
+#gap
+{
+height:900px;
+}
+
+.gap2
+{
+height:20px;
+}
+

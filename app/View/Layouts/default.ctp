@@ -34,6 +34,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->fetch('script');
 	?>
 	
+	    <script src="/js/jquery-1.8.3.min.js"></script>
+	    <script src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="/js/bootstrap.js"></script>
 	
 	    <!-- Loading Bootstrap -->
     <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -41,22 +44,51 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
     <!-- Loading Flat UI -->
     <link href="/css/flat-ui.css" rel="stylesheet">
     <link href="/css/template.css" rel="stylesheet">
-    
-    <link href="/js/jquery-1.8.3.min.js">
-    <link href="/js/bootstrap.js">
+     <link href="/css/jqui.css" rel="stylesheet">
+
 
 <body>
 
+  <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+              <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-01"></button>
+                <div class="nav-collapse collapse" id="nav-collapse-01">
+                  <ul class="nav">
+                    <li class="active">
+                      <a href="/projects">
+                        Dashboard
+                        <span class="navbar-unread">1</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#fakelink">
+                        Projects
+                        <span class="navbar-unread">1</span>
+                      </a>
+                      <ul>
+                        <li><a href="/instruments">Tendering</a></li>
+                        <li>
+                          <a href="#fakelink">In Progress</a>
+                          <ul>
+                            <li><a href="#fakelink">View</a></li>
+                            <li><a href="#fakelink">Create New</a></li>
+                          </ul> <!-- /Sub menu -->
+                        </li>
+                        <li><a href="#fakelink">Completed</a></li>
+                      </ul> <!-- /Sub menu -->
+                    </li>
+                    <li>
+                      <a href="#fakelink">
+                        User Details
+                      </a>
+                    </li>
+                  </ul>
+                </div><!--/.nav -->
+              </div>
+            </div>
+          </div>
 
-		<div class="navbar">
-		<div class="navbar-inner">
-
-
-			<a href='/'><h1>SMP Concept</h1></a>
-
-
-		</div>
-		</div>
 
 		<div class="container">
 	<div class="row">
@@ -68,8 +100,5 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		</div>
 			</div>
 	</div>
-	<pre>
-	<?php echo $this->element('sql_dump'); ?>
-	</pre>
 </body>
 </html>
