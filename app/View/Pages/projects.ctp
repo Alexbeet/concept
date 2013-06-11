@@ -43,7 +43,7 @@
 
         <div class="span3">
           <div class="tile">
-            <img src="img/icons/bellway.png" alt="Infinity-Loop@2x" class="tile-image">
+            <img src="img/icons/Chat@2x.png" alt="Infinity-Loop@2x" class="tile-image">
             <h3 class="tile-title">Shard</h3>
             <p>Private Sector</p>
             <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">View Project</a>
@@ -52,7 +52,7 @@
 
         <div class="span3">
           <div class="tile">
-            <img src="img/icons/Pensils@2x.png" alt="Pensils@2x" class="tile-image">
+            <img src="img/icons/Chat@2x.png" alt="Pensils@2x" class="tile-image">
             <h3 class="tile-title">Overbury</h3>
             <p>Private Sector</p>
             <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">View Project</a>
