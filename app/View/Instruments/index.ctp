@@ -19,13 +19,13 @@
 <div class="row">
 
 <div class="span8">
-
-	<h2><?php echo __('Instruments'); ?></h2>
+<div class="well">
+	<h3><?php echo __('Instruments'); ?></h3>
 <div class="table table-striped">
 
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
+			
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('instrument_type_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('description'); ?></th>
@@ -33,7 +33,7 @@
 	</tr>
 	<?php foreach ($instruments as $instrument): ?>
 	<tr>
-		<td><?php echo h($instrument['Instrument']['id']); ?>&nbsp;</td>
+		
 		
 		<td>
 		
@@ -68,6 +68,7 @@
 
 		
 		<td class="actions">
+		
 		<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $instrument['Instrument']['id']), null, __('Are you sure you want to delete %s?', $instrument['Instrument']['name'])); ?>
 		</td>
 		
@@ -77,32 +78,64 @@
 	</tr>
 <?php endforeach; ?>
 	</table>
-	<p>
-	<?php
-	echo $this->Paginator->counter(array(
-	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
-	));
-	?>	</p>
-	<div class="paging">
-	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
-	?>
-	</div>
+	
+	<div class="pagination pull-left">
+            <ul>
+              <li class="previous"><a href="#fakelink" class="fui-arrow-left"></a></li>
+              <li class="active"><a href="#fakelink">1</a></li>
+              <li><a href="#fakelink">2</a></li>
+              <li><a href="#fakelink">3</a></li>
+              <li><a href="#fakelink">4</a></li>
+              <li><a href="#fakelink">5</a></li>
+              <li><a href="#fakelink">6</a></li>
+              <li><a href="#fakelink">7</a></li>
+              <li><a href="#fakelink">8</a></li>
+              <li class="next"><a href="#fakelink" class="fui-arrow-right"></a></li>
+            </ul>
+          </div> <!-- /pagination -->
+
+</div>
+
+<div class="actions pull-right">
+<?php echo $this->Html->link(__('+ Add New Instrument'), array('action' => 'add'), array('class' => 'btn btn-block btn-primary')); ?>
+
+</div>
+
 </div>
 </div>
 
 <div class="span4">
-<h3>Latest Project Information</h3>
+
 
 <div class="well">
-<ul>
-<li>Information</li>
-<li>Information</li>
-<li>Information</li>
-<li>Information</li>
-</ul>
+<h3>Upcoming Key Events</h3>
+<table class="table table-striped">
+<tr>
+<td>MEP Schedule Due</td><td><span class="label label-important">11/06/13</span></td>
+</tr>
+<tr>
+<td>Key Meeting with Client</td><td><span class="label label-warning">14/06/13</span></td>
+</tr>
+<tr>
+<td>Method Statement Due</td><td><span class="label">09/07/13</span></td>	
+</tr>
+</table>
+<sub><a href="#">Edit</a></sub>
+
+<h3>Recent Activity</h3>
+
+
+<table class="table table-striped">
+<tr>
+<td>Ducting Drawings Rev3 Submitted</td><td><a href="#">View</a></td>
+</tr>
+<tr>
+<td>M&E contractor selected</td><td><a href="#">View</a></td>
+</tr>
+<tr>
+<td>Joe Blogs added as project manager</td><td><a href="#">View</a></td>
+</tr>
+</table>
 
 </div>
 
@@ -110,11 +143,13 @@
 
 </div><!-- Row Ends-->
 
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Instrument'), array('action' => 'add')); ?></li>
-	</ul>
+<div class="row">
+<div class="span12">
+
 </div>
+
+
+</div><!--Row Ends-->
+
 
 

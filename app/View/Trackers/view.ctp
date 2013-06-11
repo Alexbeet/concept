@@ -1,54 +1,100 @@
+<div class="well">
 <div class="table table-striped">
-	<h2><?php echo $instrumentTitle; ?></h2>
-	<table cellpadding="0" cellspacing="0">
+<div class="row">
+<div class="span12">
+	<div class="pull-left">
+		<h2><?php echo $instrumentTitle; ?></h2>
+	</div>
+	 <div class="pull-right">
+              <div class="btn-toolbar">
+                <div class="btn-group">
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-list"></i></a>
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-arrow-right"></i></a>
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-calendar-solid"></i></a>
+                </div>
+              </div> <!-- /toolbar -->
+            </div>
+
+</div>
+
+<div class="span12">
+
+	<?php foreach ($trackers as $tracker): ?>
+	
+		<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('description'); ?></th>
 			<th><?php echo $this->Paginator->sort('start_date'); ?></th>
-			<th><?php echo $this->Paginator->sort('end_date'); ?></th>
-			<th><?php echo $this->Paginator->sort('comments'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('progress'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
-	<?php foreach ($trackers as $tracker): ?>
+	
+	
 	<tr>
 		<td><?php echo h($tracker['Tracker']['name']); ?>&nbsp;</td>
 		<td><?php echo h($tracker['Tracker']['description']); ?>&nbsp;</td>
-		<td><?php echo h($tracker['Tracker']['start_date']); ?>&nbsp;</td>
-		<td><?php echo h($tracker['Tracker']['end_date']); ?>&nbsp;</td>
-		<td><?php echo h($tracker['Tracker']['comments']); ?></td>
-		<td><?php echo h($tracker['Tracker']['created']); ?>&nbsp;</td>
-		<td><?php echo h($tracker['Tracker']['modified']); ?>&nbsp;</td>
-		<td><?php echo h($tracker['Tracker']['progress']); ?>&nbsp;</td>
+		<td><table><tr><td><?php echo h($tracker['Tracker']['start_date']); ?></td></tr>
+		<tr><td><?php echo h($tracker['Tracker']['end_date']); ?>&nbsp;</td></tr></table></td>
+		
+		
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'detail', $tracker['Tracker']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $tracker['Tracker']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $tracker['Tracker']['id']), null, __('Are you sure you want to delete # %s?', $tracker['Tracker']['id'])); ?>
-		</td>
+		
+		 <div class="pull-right">
+              <div class="btn-toolbar">
+                <div class="btn-group">
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-plus"></i></a>
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-cross"></i></a>
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-list"></i></a>
+                </div>
+              </div> <!-- /toolbar -->
+
+
+				</td>
 	</tr>
+	
+	
+	<?php $percentage = $tracker['Tracker']['progress'] * 100; ?>
+	
+	<tr>
+	<td colspan="2"><?php echo h($tracker['Tracker']['comments']); ?></td>
+	<td colspan="2"><div class="centreText"><?php echo $percentage; ?>%</div>&nbsp;<div class="progress"><div class="bar bar-info" style="width:<?php echo $percentage?>%;"></div></div></td>
+	</tr>
+	
+
+</table>
+
+<div class="paddingTop10">
+</div>
+	
 <?php endforeach; ?>
-	</table>
-	<p>
-	<?php
-	echo $this->Paginator->counter(array(
-	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
-	));
-	?>	</p>
-	<div class="paging">
-	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
-	?>
-	</div>
+
+</div><!--Span 12 closes-->
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Tracker'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Instruments'), array('controller' => 'instruments', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Instrument'), array('controller' => 'instruments', 'action' => 'add')); ?> </li>
-	</ul>
+
+<div class="row">
+<div class="span12">
+	<div class="pagination pull-left">
+            <ul>
+              <li class="previous"><a href="#fakelink" class="fui-arrow-left"></a></li>
+              <li class="active"><a href="#fakelink">1</a></li>
+              <li><a href="#fakelink">2</a></li>
+              <li><a href="#fakelink">3</a></li>
+              <li><a href="#fakelink">4</a></li>
+              <li><a href="#fakelink">5</a></li>
+              <li><a href="#fakelink">6</a></li>
+              <li><a href="#fakelink">7</a></li>
+              <li><a href="#fakelink">8</a></li>
+              <li class="next"><a href="#fakelink" class="fui-arrow-right"></a></li>
+            </ul>
+          </div> <!-- /pagination -->
+          
+
+          
+          <div class="pull-right actions paddingTop20">
+<?php echo $this->Html->link(__('New Tracker Item'), array('action' => 'add'), array('class' => 'btn btn-block btn-primary')); ?>
 </div>
+
+          </div>
+          
+                    </div>
+          
