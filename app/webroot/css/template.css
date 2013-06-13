@@ -34,7 +34,29 @@ padding-top: 20px;
 {
 padding-top: 10px;
 }
+.marginTop20
+{
+padding-top: 20px;
+}
+.marginTop10
+{
+padding-top: 10px;
+}
 .centreText
 {text-align: center;
 margin: 0;
 padding: 0;}
+.spanTable
+{
+overflow: auto;
+padding: 10px 0;
+height: 180px;
+}
+.background1
+{
+background: #3498db;
+}
+.background2
+{
+background: #2980b9;
+}
