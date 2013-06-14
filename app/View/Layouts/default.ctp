@@ -90,8 +90,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
           </div>
 
 
-		<div class="container">
-	<div class="row">
+		<div class="container-fluid">
+	<div class="row-fluid">
 
 
 			<?php echo $this->Session->flash(); ?>

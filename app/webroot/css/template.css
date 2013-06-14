@@ -49,9 +49,10 @@ padding: 0;}
 .spanTable
 {
 overflow: auto;
-padding: 10px 0;
-height: 180px;
+padding: 10px;
+min-height: 80px;
 }
+
 .background1
 {
 background: #3498db;
@@ -59,4 +60,9 @@ background: #3498db;
 .background2
 {
 background: #2980b9;
+}
+
+.comment
+{
+display: none;
 }
