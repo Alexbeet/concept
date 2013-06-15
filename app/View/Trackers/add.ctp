@@ -3,7 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Add Tracker'); ?></legend>
 	<?php
-		echo $this->Form->input('instrument_id');
+		echo $this->Form->hidden('instrument_id', array('value' => $instrumentId));
 		echo $this->Form->input('name');
 		echo $this->Form->input('description');
 		echo $this->Form->input('start_date');

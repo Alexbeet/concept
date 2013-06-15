@@ -1,5 +1,10 @@
+  <div class="span6">
      <h2><?php echo $instrumentTitle; ?></h2>            
-
+  </div>
+  
+  <div class="span6">
+  <?php echo $this->Html->link('Add new', array('controller' => 'trackers', 'action' => 'add', $instrumentId)); ?>
+  </div>
 
 	<?php $i = 1;?>
 	<?php foreach ($trackers as $tracker): ?>	

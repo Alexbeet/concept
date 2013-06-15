@@ -39,6 +39,7 @@ class TrackersController extends AppController {
 		$options = array(array('Instrument.id' => $id));
 		$this->set('trackers', $this->paginate($options));
 		$this->set('instrumentTitle', $this->Tracker->Instrument->field('name'));
+		$this->set('instrumentId', $id);
 	}
 
 /**
@@ -46,8 +47,15 @@ class TrackersController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($id = null) {
+	
+			if (isset($id))
+		{
+			$this->set('instrumentId', $id);
+		}
+	
 		if ($this->request->is('post')) {
+		
 			$this->Tracker->create();
 			if ($this->Tracker->save($this->request->data)) {
 				$this->Session->setFlash(__('The tracker has been saved'));
@@ -56,6 +64,8 @@ class TrackersController extends AppController {
 				$this->Session->setFlash(__('The tracker could not be saved. Please, try again.'));
 			}
 		}
+		
+		
 		$instruments = $this->Tracker->Instrument->find('list');
 		$this->set(compact('instruments'));
 	}
