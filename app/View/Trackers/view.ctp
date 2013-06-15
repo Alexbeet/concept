@@ -1,9 +1,16 @@
-  <div class="span6">
+  <div class="span7">
      <h2><?php echo $instrumentTitle; ?></h2>            
   </div>
   
-  <div class="span6">
-  <?php echo $this->Html->link('Add new', array('controller' => 'trackers', 'action' => 'add', $instrumentId)); ?>
+  <div class="span3">
+  
+	  <div class="btn"><?php echo $this->Paginator->sort('name')?></div>
+	  <div class="btn"><?php echo $this->Paginator->sort('start_date'); ?></div>
+	  <div class="btn"><?php echo $this->Paginator->sort('end_date'); ?></div>
+  </div>
+
+  <div class="span2">
+	  <?php echo $this->Html->link('Add new', array('controller' => 'trackers', 'action' => 'add', $instrumentId), array('class' => 'btn pull-right')); ?>
   </div>
 
 	<?php $i = 1;?>
@@ -19,27 +26,32 @@
 				<div class="row-fluid">
 		
 					<div class="span2">
-					<?php echo $this->Paginator->sort('name'); ?>
-					<br /> <?php echo h($tracker['Tracker']['name']); ?>&nbsp;
+					<div class="spanTableTitle">Name</div>
+					<div><?php echo h($tracker['Tracker']['name']); ?></div>
 					</div>
 					
 					<div class="span4">
-					<?php echo $this->Paginator->sort('description'); ?>
-					<br /><?php echo h($tracker['Tracker']['description']); ?>&nbsp;
+					<div class="spanTableTitle">Description</div>
+					<div><?php echo h($tracker['Tracker']['description']); ?></div>
 					</div>
 					
-					<div class="span2">
-					<?php echo $this->Paginator->sort('start_date'); ?>
-					<br /><?php echo h($tracker['Tracker']['start_date']); ?>
+					<div class="span1">
+					<div class="spanTableTitle">Start Date</div>
+					<div><?php echo $this->Time->format('d-m-Y', $tracker['Tracker']['start_date']); ?></div>
+					
+					
+					
+					
 					</div>
 					
-					<div class="span2">
-					<?php echo $this->Paginator->sort('end_date'); ?>
-					<br /><?php echo h($tracker['Tracker']['end_date']); ?>&nbsp;
+					<div class="span1">
+					<div class="spanTableTitle">End Date</div>
+					<div><?php echo $this->Time->format('d-m-Y', $tracker['Tracker']['end_date']); ?></div>
 					</div>
 					
 					<div class="span2 actions">
-					<?php echo __('Actions'); ?>
+					<a class="expandComment marginTop10 btn btn-primary btn-mini">View Comments</a>
+					<a class="expandComment marginTop10 btn btn-primary btn-mini">Edit</a>
 					</div>
 				
 				</div>
@@ -48,14 +60,18 @@
 				<div class="row-fluid">
 			
 					<div class="span6">
-					<a class="expandComment btn btn-primary btn-mini">View Comments</a>
+					
 
 					</div>
 					
-					<div class="span6">
+					<div class="span3">
+					</div>
 					
-						<div class="centreText">
-						<?php echo $percentage; ?>%
+					<div class="span3">
+					
+					
+						<div class="centreText percentageText">
+						<?php echo $percentage; ?>% Complete
 						</div>
 						
 						<div class="progress">
@@ -82,7 +98,16 @@
 
 </div><!-- Row fluid Close-->
 
-<?php $i = 2; ?>
+<?php
+
+if($i == 2)
+{
+$i = $i -1;
+}
+elseif($i ==1)
+{
+$i = $i + 1;
+}?>
 		
 	<?php endforeach; ?>
 

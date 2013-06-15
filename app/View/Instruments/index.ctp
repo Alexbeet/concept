@@ -1,4 +1,4 @@
-<div class="row">
+
 
 <div class="span10">
 	<h1>Steyning Grammar School</h1>
@@ -16,7 +16,7 @@
 </div>
 
 
-<div class="row">
+<div class="row-fluid">
 
 <div class="span8">
 <div class="well">
@@ -149,7 +149,6 @@
 </div>
 
 
-</div><!--Row Ends-->
 
 
 
