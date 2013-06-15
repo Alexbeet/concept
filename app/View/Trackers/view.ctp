@@ -1,7 +1,18 @@
-  <div class="span7">
+  <div class="span4">
      <h2><?php echo $instrumentTitle; ?></h2>            
   </div>
   
+  <div class="span3">
+  
+  <div class="btn-toolbar">
+                <div class="btn-group">
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-time"></i></a>
+                  <a class="btn btn-primary" href="#fakelink"><i class="fui-list"></i></a>
+                  <a class="btn btn-primary active" href="/trackers/gantt/<?php echo $instrumentId?>"><i class="fui-calendar-solid"></i></a>
+
+                </div>
+              </div> <!-- /toolbar -->
+  </div>
   <div class="span3">
   
 	  <div class="btn"><?php echo $this->Paginator->sort('name')?></div>
@@ -51,7 +62,7 @@
 					
 					<div class="span2 actions">
 					<a class="expandComment marginTop10 btn btn-primary btn-mini">View Comments</a>
-					<a class="expandComment marginTop10 btn btn-primary btn-mini">Edit</a>
+					<a class="marginTop10 btn btn-primary btn-mini">Edit</a>
 					</div>
 				
 				</div>

@@ -45,6 +45,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
     <link href="/css/flat-ui.css" rel="stylesheet">
     <link href="/css/template.css" rel="stylesheet">
      <link href="/css/jqui.css" rel="stylesheet">
+     
+      <link href="/css/gantti.css" rel="stylesheet">
 
 
 <body>

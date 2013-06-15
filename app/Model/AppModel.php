@@ -22,6 +22,7 @@
  */
 
 App::uses('Model', 'Model');
+App::uses('gantti-master', 'View');
 
 /**
  * Application model for Cake.

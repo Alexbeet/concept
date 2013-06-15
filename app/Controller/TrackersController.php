@@ -42,6 +42,22 @@ class TrackersController extends AppController {
 		$this->set('instrumentId', $id);
 	}
 
+
+	public function gantt($id = null) {
+		if (!$this->Tracker->Instrument->exists($id)) {
+			throw new NotFoundException(__('Invalid tracker'));
+		}
+		
+		$this->Tracker->Instrument->id = $id;
+				
+		$insid = $this->Tracker->Instrument->field('id');
+		
+		$options = array(array('Instrument.id' => $id));
+		$this->set('trackers', $this->paginate($options));
+		$this->set('instrumentTitle', $this->Tracker->Instrument->field('name'));
+		$this->set('instrumentId', $id);
+	}
+
 /**
  * add method
  *
