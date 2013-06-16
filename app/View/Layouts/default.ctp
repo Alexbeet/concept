@@ -64,24 +64,24 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                       </a>
                     </li>
                     <li>
-                      <a href="#fakelink">
+                      <a href="#">
                         Projects
                         <span class="navbar-unread">1</span>
                       </a>
                       <ul>
                         <li><a href="/instruments">Tendering</a></li>
                         <li>
-                          <a href="#fakelink">In Progress</a>
+                          <a href="#">In Progress</a>
                           <ul>
-                            <li><a href="#fakelink">View</a></li>
-                            <li><a href="#fakelink">Create New</a></li>
+                            <li><a href="#">View</a></li>
+                            <li><a href="#">Create New</a></li>
                           </ul> <!-- /Sub menu -->
                         </li>
-                        <li><a href="#fakelink">Completed</a></li>
+                        <li><a href="#">Completed</a></li>
                       </ul> <!-- /Sub menu -->
                     </li>
                     <li>
-                      <a href="#fakelink">
+                      <a href="#">
                         User Details
                       </a>
                     </li>
