@@ -81,8 +81,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                       </ul> <!-- /Sub menu -->
                     </li>
                     <li>
-                      <a href="#fakelink">
-                        User Details
+                      <a href="/subcontractors">
+                        Sub Contractors
                       </a>
                     </li>
                   </ul>
