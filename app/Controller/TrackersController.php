@@ -40,6 +40,7 @@ class TrackersController extends AppController {
 		$this->set('trackers', $this->paginate($options));
 		$this->set('instrumentTitle', $this->Tracker->Instrument->field('name'));
 		$this->set('instrumentId', $id);
+		$this->set('pageName', 'view');
 	}
 
 
@@ -56,6 +57,7 @@ class TrackersController extends AppController {
 		$this->set('trackers', $this->paginate($options));
 		$this->set('instrumentTitle', $this->Tracker->Instrument->field('name'));
 		$this->set('instrumentId', $id);
+		$this->set('pageName', 'gantt');
 	}
 
 /**
