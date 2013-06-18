@@ -7,8 +7,8 @@
   <div class="btn-toolbar">
                 <div class="btn-group">
                   <a class="btn btn-primary" href="/trackers/view/<?php echo $instrumentId?>"><i class="fui-time"></i></a>
-                  <a class="btn btn-primary" href="/trackers/view/<?php echo $instrumentId?>"><i class="fui-list"></i></a>
-                  <a class="btn btn-primary" href="/trackers/gantt/<?php echo $instrumentId?>"><i class="fui-calendar-solid"></i></a>
+                  <a class="btn btn-primary <?php if ($pageName == 'view') {echo 'active';} ?>" href="/trackers/view/<?php echo $instrumentId?>"><i class="fui-list"></i></a>
+                  <a class="btn btn-primary <?php if ($pageName == 'gantt') {echo 'active';} ?>" href="/trackers/gantt/<?php echo $instrumentId?>"><i class="fui-calendar-solid"></i></a>
 
                 </div>
               </div> <!-- /toolbar -->

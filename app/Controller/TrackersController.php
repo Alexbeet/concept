@@ -118,6 +118,9 @@ class TrackersController extends AppController {
 		if (!$this->Tracker->exists($id)) {
 			throw new NotFoundException(__('Invalid tracker'));
 		}
+		
+		$this->set('tracker', $this->Tracker->find('first', array('conditions' => array('Tracker.id' => $id))));
+		
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Tracker->save($this->request->data)) {
 				$this->Session->setFlash(__('The tracker has been saved'));

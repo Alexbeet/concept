@@ -4,7 +4,7 @@
 		<legend><?php echo __('Edit Tracker'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('instrument_id');
+		echo $this->Form->hidden('instrument_id', array('conditions' => array('value' => $tracker['Tracker']['instrument_id'])));
 		echo $this->Form->input('name');
 		echo $this->Form->input('description');
 		echo $this->Form->input('start_date');
@@ -25,3 +25,8 @@
 		<li><?php echo $this->Html->link(__('New Instrument'), array('controller' => 'instruments', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+
+<pre>
+
+<?php print_r($tracker)?>
+</pre>

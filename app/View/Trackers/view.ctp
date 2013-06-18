@@ -37,7 +37,7 @@
 					
 					<div class="span2 actions">
 					<a class="expandComment marginTop10 btn btn-primary btn-mini">View Comments</a>
-					<a class="marginTop10 btn btn-primary btn-mini">Edit</a>
+					<a class="marginTop10 btn btn-primary btn-mini" href="/Trackers/edit/<?php echo $tracker['Tracker']['id']; ?>">Edit</a>
 					</div>
 				
 				</div>
