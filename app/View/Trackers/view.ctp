@@ -23,16 +23,13 @@
 					
 					<div class="span1">
 					<div class="spanTableTitle">Start Date</div>
-					<div><?php echo $this->Time->format('d-m-Y', $tracker['Tracker']['start_date']); ?></div>
-					
-					
-					
+					<div><?php echo $this->Time->format('d-m-Y', $tracker['Instrument']['Gantt'][$tracker['Tracker']['gantt_id']]['start_date']); ?></div>
 					
 					</div>
 					
 					<div class="span1">
 					<div class="spanTableTitle">End Date</div>
-					<div><?php echo $this->Time->format('d-m-Y', $tracker['Tracker']['end_date']); ?></div>
+					<div><?php echo $this->Time->format('d-m-Y', $tracker['Instrument']['Gantt'][$tracker['Tracker']['gantt_id']]['end_date']); ?></div>
 					</div>
 					
 					<div class="span2 actions">
@@ -107,4 +104,6 @@ $('.expandComment').click(function() {
 
 </script>
                  
-          
+<pre>
+<?php print_r($tracker);?>
+</pre>

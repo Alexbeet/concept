@@ -143,9 +143,11 @@
 
 </div><!-- Row Ends-->
 
-<div class="row">
+<div class="row-fluid">
 <div class="span12">
+<?php //echo $this->element('gantt');?>
 
+</div>
 </div>
 
 

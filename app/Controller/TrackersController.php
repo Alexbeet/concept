@@ -31,6 +31,7 @@ class TrackersController extends AppController {
 		if (!$this->Tracker->Instrument->exists($id)) {
 			throw new NotFoundException(__('Invalid tracker'));
 		}
+			$this->Tracker->recursive = 2;
 		
 		$this->Tracker->Instrument->id = $id;
 				
@@ -67,6 +68,9 @@ class TrackersController extends AppController {
  */
 	public function add($id = null) {
 	
+	$this->Tracker->recursive = 2;
+	
+	
 			if (isset($id))
 		{
 			$this->set('instrumentId', $id);
@@ -75,9 +79,20 @@ class TrackersController extends AppController {
 		if ($this->request->is('post')) {
 		
 			$this->Tracker->create();
-			if ($this->Tracker->save($this->request->data)) {
+			if ($this->Tracker->saveAll($this->request->data)) {
+			
+			//This is what you were working on! save works now!
+			//work on displaying data in both instrument(tracker) view and overall gantt view
+			//Then get data displaying in html so we can create popover forms and ajax submit boyah
+			
+			$data = array('Gantt' => array('start_date' => $this->request->data['Gantt']['start_date'], 'end_date' => $this->request->data['Gantt']['start_date'],'instrument_id' => $id));
+			if($this->Tracker->Instrument->Gantt->save($data))
+
+			{
 				$this->Session->setFlash(__('The tracker has been saved'));
 				$this->redirect(array('action' => 'index'));
+				}
+			
 			} else {
 				$this->Session->setFlash(__('The tracker could not be saved. Please, try again.'));
 			}
@@ -96,6 +111,8 @@ class TrackersController extends AppController {
  * @return void
  */
 	public function detail($id = null) {
+	
+		$this->Tracker->recursive = 2;
 		if (!$this->Tracker->exists($id)) {
 			throw new NotFoundException(__('Invalid tracker'));
 		}
