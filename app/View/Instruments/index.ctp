@@ -20,7 +20,18 @@
 
 <div class="span8">
 <div class="well">
+
+<div class="row-fluid">
+<div class="span6">
 	<h3><?php echo __('Instruments'); ?></h3>
+</div>
+<div class="span6">
+<div class="pull-right">
+
+	<?php echo $this->Html->link(__('View Gantt Chart'), array('controller' => 'gantts', 'action' => 'index'), array('class' => 'btn  btn-primary')); ?>
+</div>	
+</div>
+</div>
 <div class="table table-striped">
 
 	<table cellpadding="0" cellspacing="0">

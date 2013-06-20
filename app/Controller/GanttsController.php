@@ -13,8 +13,10 @@ class GanttsController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->Gantt->recursive = 0;
+		$this->Gantt->recursive = 2;
 		$this->set('gantts', $this->paginate());
+		$this->set('instrumentTitle', $this->Gantt->Instrument->field('name'));
+		$this->set('instrumentId', $this->Gantt->Instrument->field('id'));
 	}
 
 /**

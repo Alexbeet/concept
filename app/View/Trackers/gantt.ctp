@@ -1,7 +1,10 @@
 <?php
 
-echo $this->element('trackerHeader');
+echo $this->element('trackerHeader');?>
 
+<div class="span12">
+
+<?php
 
 class CalendarIterator implements Iterator {
 
@@ -724,9 +727,6 @@ class CalendarSecond extends CalendarObj {
 }
 
 
-
-
-
 class Gantti {
 
   var $cal       = null;
@@ -766,7 +766,10 @@ class Gantti {
     foreach($this->data as $d) {
               
       $this->blocks[] = array(
-        'label' => $d['label'],
+        'instrumentId' => $d['instrumentId'],
+        'ganttId' => $d['ganttId'],
+        'trackerId' => $d['trackerId'],
+      	'label' => $d['label'],
         'start' => $start = strtotime($d['start']),
         'end'   => $end   = strtotime($d['end']),
         'class' => @$d['class']
@@ -813,7 +816,7 @@ class Gantti {
 
     // sidebar with labels
     $html[] = '<aside>';
-    $html[] = '<ul class="gantt-labels" style="margin-top:144px">';
+    $html[] = '<ul class="gantt-labels" style="margin-top: ' . (($this->options['cellheight']*2)+1) . 'px">';
     foreach($this->blocks as $i => $block) {
       $html[] = '<li class="gantt-label"><strong ' . $cellstyle . '>' . $block['label'] . '</strong></li>';      
     }
@@ -840,7 +843,7 @@ class Gantti {
       $weekend = ($day->isWeekend()) ? ' weekend' : '';
       $today   = ($day->isToday())   ? ' today' : '';
 
-      $html[] = '<li class="gantt-day' . $weekend . $today . '" ' . $wrapstyle . '><span ' . $cellstyle . '>' . $day->padded() . '</span></li>';
+      $html[] = '<li class="gantt-day' .$weekend . $today . '" ' . $wrapstyle . '><span ' . $cellstyle . '>' . $day->padded() . '</span></li>';
     }                      
     $html[] = '</ul>';    
     
@@ -861,12 +864,13 @@ class Gantti {
         $weekend = ($day->isWeekend()) ? ' weekend' : '';
         $today   = ($day->isToday())   ? ' today' : '';
 
-        $html[] = '<li class="gantt-day' . $weekend . $today . '" ' . $wrapstyle . '><span ' . $cellstyle . '>' . $day . '</span></li>';
+
+
+        $html[] = '<li class="gantt-day' . $weekend . $today . '" data-date="'.$day.'" ' . $wrapstyle . '><span ' . $cellstyle . '>' . $day . '</span></li>';
       }                      
       $html[] = '</ul>';    
 
       // the block
-      $label = $block['label'];
       $days   = (($block['end'] - $block['start']) / $this->seconds);
       $offset = (($block['start'] - $this->first->month()->timestamp) / $this->seconds);
       $top    = round($i * ($this->options['cellheight'] + 1));
@@ -874,7 +878,7 @@ class Gantti {
       $width  = round($days * $this->options['cellwidth'] - 9);
       $height = round($this->options['cellheight']-8);
       $class  = ($block['class']) ? ' ' . $block['class'] : '';
-      $html[] = '<span class="gantt-block' . $class . '" style="left: ' . $left . 'px; width: ' . $width . 'px; height: ' . $height . 'px"><strong class="gantt-block-label">' . $days." - ".$label . '</strong></span>';
+      $html[] = '<span class="gantt-block' . $class . '" style="left: ' . $left . 'px; width: ' . $width . 'px; height: ' . $height . 'px" data-instrument-id="' . $block['instrumentId'] . '" data-gantt-id="' . $block['ganttId'] . '" ><strong class="gantt-block-label">' . $days ." - ".$block['label'].  ' <a href="../detail/'.$block['trackerId']. '">View</a></strong></span>';
       $html[] = '</li>';
     
     }
@@ -909,19 +913,25 @@ class Gantti {
   }
 
 }
-
-
-
 date_default_timezone_set('UTC');
 setlocale(LC_ALL, 'en_US');
 
 $data = array();
+$i =0;
 foreach ($trackers as $tracker):
+
 $data[] = array(
+  'instrumentId' => $tracker['Instrument']['id'],
+  'ganttId' => $tracker['Tracker']['gantt_id'],
+  'trackerId' => $tracker['Tracker']['id'],
   'label' => $tracker['Tracker']['name'],
-  'start' => $tracker['Tracker']['start_date'], 
-  'end'   => $tracker['Tracker']['end_date']
+  'start' => $tracker['Instrument']['Gantt'][$i]['start_date'], 
+  'end'   => $tracker['Instrument']['Gantt'][$i]['end_date']
 );
+
+
+echo $i;
+$i++;
 endforeach;
 
 $gantti = new Gantti($data, array(
@@ -934,6 +944,11 @@ echo $gantti;
 
 ?>
 
-  </div>
-  
-  </div>
+<pre>
+<?php print_r($tracker);?>
+
+</pre>
+
+
+
+</div>
