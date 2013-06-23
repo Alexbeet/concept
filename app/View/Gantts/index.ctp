@@ -1,12 +1,14 @@
 <?php
 
+
 echo $this->element('trackerHeader');?>
 
 <div class="span12">
 
 <?php
 
-class CalendarIterator implements Iterator {
+
+class CalendarIterator extends GanttsController implements Iterator  {
 
   private $_ = array();
 
@@ -889,16 +891,12 @@ class Gantti {
       
     <div id="pop'. $block['ganttId'] .'_content" class="popSourceBlock">
     <div class="popTitle">
-    ' . $block['ganttId'] . '
+    ' . $block['label'] . '
     </div>
-    <div class="popContent">
-    	' . $day . '
-       <form><input type="text" value="' . $block['formattedStart'] . '"/></form>
-       <form><input type="text" value="' . $block['formattedEnd'] . '"/></form>
+    <div class="popContent">'. 'Form Here' .'
+       
     </div>
 </div>
-
-      
       
       ';
     
@@ -989,13 +987,13 @@ $(".pop").each(function() {
     var $pElem= $(this);
     $pElem.clickover(
         {
-          height: 200,
-          width: 300,
+          height: 150,
+          width: 200,
           global_close: false,
           title: getPopTitle($pElem.attr("id")),
           content: getPopContent($pElem.attr("id")),
           html: true,
-          placement: 'top',
+          placement: 'right',
         }
     );
 });

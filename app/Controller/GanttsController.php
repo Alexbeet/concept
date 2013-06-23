@@ -17,6 +17,9 @@ class GanttsController extends AppController {
 		$this->set('gantts', $this->paginate());
 		$this->set('instrumentTitle', $this->Gantt->Instrument->field('name'));
 		$this->set('instrumentId', $this->Gantt->Instrument->field('id'));
+		
+		
+		
 	}
 
 /**
