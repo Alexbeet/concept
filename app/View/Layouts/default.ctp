@@ -37,6 +37,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	    <script src="/js/jquery-1.8.3.min.js"></script>
 	    <script src="/js/jquery-ui-1.10.3.custom.min.js"></script>
 		<script src="/js/bootstrap.js"></script>
+		<script src="/js/bootstrapx-clickover.js"></script>
 	
 	    <!-- Loading Bootstrap -->
     <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">

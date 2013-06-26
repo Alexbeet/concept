@@ -53,6 +53,19 @@ class Instrument extends AppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
+			'Gantt' => array(
+			'className' => 'Gantt',
+			'foreignKey' => 'instrument_id',
+			'dependent' => true,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
 		'Tracker' => array(
 			'className' => 'Tracker',
 			'foreignKey' => 'instrument_id',

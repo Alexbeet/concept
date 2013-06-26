@@ -4,12 +4,12 @@
 		<legend><?php echo __('Add Tracker'); ?></legend>
 	<?php
 		echo $this->Form->hidden('instrument_id', array('value' => $instrumentId));
-		echo $this->Form->input('name');
-		echo $this->Form->input('description');
-		echo $this->Form->input('start_date');
-		echo $this->Form->input('end_date');
-		echo $this->Form->input('comments');
-		echo $this->Form->input('progress');
+		echo $this->Form->input('Tracker.name');
+		echo $this->Form->input('Tracker.description');
+		echo $this->Form->input('Gantt.start_date');
+		echo $this->Form->input('Gantt.end_date');
+		echo $this->Form->input('Tracker.comments');
+		echo $this->Form->input('trackerprogress');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

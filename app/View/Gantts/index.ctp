@@ -1,12 +1,14 @@
 <?php
 
+
 echo $this->element('trackerHeader');?>
 
 <div class="span12">
 
 <?php
 
-class CalendarIterator implements Iterator {
+
+class CalendarIterator extends GanttsController implements Iterator  {
 
   private $_ = array();
 
@@ -769,9 +771,13 @@ class Gantti {
         'instrumentId' => $d['instrumentId'],
         'ganttId' => $d['ganttId'],
         'trackerId' => $d['trackerId'],
+        'colour' => $d['colour'],
       	'label' => $d['label'],
         'start' => $start = strtotime($d['start']),
         'end'   => $end   = strtotime($d['end']),
+        'formattedStart' => $d['start'],
+        'formattedEnd' => $d['end'],
+        
         'class' => @$d['class']
       );
       
@@ -878,8 +884,21 @@ class Gantti {
       $width  = round($days * $this->options['cellwidth'] - 9);
       $height = round($this->options['cellheight']-8);
       $class  = ($block['class']) ? ' ' . $block['class'] : '';
-      $html[] = '<span class="gantt-block' . $class . '" style="left: ' . $left . 'px; width: ' . $width . 'px; height: ' . $height . 'px" data-instrument-id="' . $block['instrumentId'] . '" data-gantt-id="' . $block['ganttId'] . '" ><strong class="gantt-block-label">' . $days ." - ".$block['label'].  ' <a href="../detail/'.$block['trackerId']. '">View</a></strong></span>';
-      $html[] = '</li>';
+      $html[] = '<span id="pop' . $block['ganttId'] . '" class="pop gantt-block' . $class . '" style="left: ' . $left . 'px; width: ' . $width . 'px; height: ' . $height . 'px; background-color:'. $block['colour'] .'" data-instrument-id="' . $block['instrumentId'] . '" data-gantt-id="' . $block['ganttId'] . '" ><strong class="gantt-block-label">' . $days ." - ".$block['label'].  ' <a href="/trackers/detail/'.$block['trackerId']. '">View</a></strong></span>';
+      $html[] = '</li>
+      
+      
+      
+    <div id="pop'. $block['ganttId'] .'_content" class="popSourceBlock">
+    <div class="popTitle">
+    ' . $block['label'] . '
+    </div>
+    <div class="popContent">'. 'Form Here' .'
+       
+    </div>
+</div>
+      
+      ';
     
     }
     
@@ -918,20 +937,22 @@ setlocale(LC_ALL, 'en_US');
 
 $data = array();
 $i =0;
-foreach ($trackers as $tracker):
+foreach ($gantts as $gantt):
 
 $data[] = array(
-  'instrumentId' => $tracker['Instrument']['id'],
-  'ganttId' => $tracker['Tracker']['gantt_id'],
-  'trackerId' => $tracker['Tracker']['id'],
-  'label' => $tracker['Tracker']['name'],
-  'start' => $tracker['Instrument']['Gantt'][$i]['start_date'], 
-  'end'   => $tracker['Instrument']['Gantt'][$i]['end_date']
+  'instrumentId' => $gantt['Instrument']['id'],
+  'ganttId' => $gantt['Gantt']['id'],
+  'trackerId' => $gantt['Instrument']['Tracker'][0]['id'],
+  'label' => $gantt['Instrument']['Tracker'][0]['name'],
+  'colour' => $gantt['Instrument']['colour'],
+  'start' => $gantt['Gantt']['start_date'], 
+  'end'   => $gantt['Gantt']['end_date']
 );
 
 
 echo $i;
 $i++;
+
 endforeach;
 
 $gantti = new Gantti($data, array(
@@ -944,11 +965,44 @@ echo $gantti;
 
 ?>
 
-<pre>
-<?php print_r($tracker);?>
-
-</pre>
-
-
 
 </div>
+
+
+
+
+
+
+<style>
+    .popSourceBlock {
+        display:none;
+    }
+</style>
+
+
+
+<script type="text/javascript">
+
+$(".pop").each(function() {
+    var $pElem= $(this);
+    $pElem.clickover(
+        {
+          height: 150,
+          width: 200,
+          global_close: false,
+          title: getPopTitle($pElem.attr("id")),
+          content: getPopContent($pElem.attr("id")),
+          html: true,
+          placement: 'right',
+        }
+    );
+});
+				
+function getPopTitle(target) {
+    return $("#" + target + "_content > div.popTitle").html();
+};
+		
+function getPopContent(target) {
+    return $("#" + target + "_content > div.popContent").html();
+};
+</script>

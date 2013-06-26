@@ -1,5 +1,7 @@
  <?php echo $this->element('trackerHeader')?>
-	<?php $i = 1;?>
+	<?php $i = 1;
+		$ii = 0;
+	?>
 	<?php foreach ($trackers as $tracker): ?>	
 	
 	<?php $percentage = $tracker['Tracker']['progress'] * 100; ?>
@@ -23,18 +25,14 @@
 					
 					<div class="span1">
 					<div class="spanTableTitle">Start Date</div>
-					<div><?php echo $this->Time->format('d-m-Y', $tracker['Tracker']['start_date']); ?></div>
-					
-					
-					
+					<div><?php echo $this->Time->format('d-m-Y', $tracker['Instrument']['Gantt'][$ii]['start_date']); ?></div>
 					
 					</div>
 					
 					<div class="span1">
 					<div class="spanTableTitle">End Date</div>
-					<div><?php echo $this->Time->format('d-m-Y', $tracker['Tracker']['end_date']); ?></div>
-					</div>
-					
+						<div><?php echo $this->Time->format('d-m-Y', $tracker['Instrument']['Gantt'][$ii]['end_date']); ?></div>					</div>
+						
 					<div class="span2 actions">
 					<a class="expandComment marginTop10 btn btn-primary btn-mini">View Comments</a>
 					<a class="marginTop10 btn btn-primary btn-mini" href="/Trackers/edit/<?php echo $tracker['Tracker']['id']; ?>">Edit</a>
@@ -95,7 +93,11 @@ elseif($i ==1)
 $i = $i + 1;
 }?>
 		
-	<?php endforeach; ?>
+	<?php 
+	
+	$ii++;
+	
+	endforeach; ?>
 
 <script type="text/javascript">
 
@@ -107,4 +109,6 @@ $('.expandComment').click(function() {
 
 </script>
                  
-          
+<pre>
+<?php print_r($tracker);?>
+</pre>
